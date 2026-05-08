@@ -1,6 +1,6 @@
 package eci.edu.byteProgramming.ejercicio.paper.util;
 
-import javax.management.Notification;
+// Notification class is in the same package — no import needed
 
 public class PaymentEventObserver implements PaymentObserver {
     private Inventory inventory;
